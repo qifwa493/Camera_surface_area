@@ -1,0 +1,6 @@
+{
+    "CurveFitting": false,
+    "SelectionMode": 1,
+    "MaxImageSize": 3000,
+    "ChessBoardUnitSize": 250
+}

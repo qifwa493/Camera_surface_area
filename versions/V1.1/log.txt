@@ -1,0 +1,22 @@
+# V1.1
+1. After Perspective transform, crop the image to remove excessive black border
+2. After contour tracing, allow the user to redraw the contour using mouse
+3. After redrawn the contour, trace the contour again and calculate the area based on the drawing ratio
+
+
+# V1.0
+This is the first version of the software.
+
+A GUI is developed which combines all the components of the program.
+
+Main functions included:
+1. Main user interface
+2. Camera Matrix and Photo import window
+3. Photo distortion removal, Perspective transform
+4. Edge and contour detection
+5. Contour tracing
+6. Area calculation
+
+Utility function included:
+Camera Matrix generation
+

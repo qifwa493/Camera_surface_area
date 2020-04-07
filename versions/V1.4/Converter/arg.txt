@@ -1,0 +1,1 @@
+pyuic5.exe $name$.ui -o $name$.py

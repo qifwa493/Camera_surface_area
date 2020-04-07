@@ -1,0 +1,11 @@
+To measure the area of a flat surface, you will need to take a picture of the surface with a chessboard placed on it.
+
+Calibrate the camera will increase accuracy, details on how to create a camera matrix to calibrate your camera can be found in the camera matrix creation window.
+
+Import both camera matrix and a photo in the 'Open' window, press 'OK' button to start processing.
+
+After contour tracing, use the contour found by the program or re-draw a new contour to calculate the surface area.
+
+To get better result, try to keep the background of the photo simple and ensure good lighting condition.
+
+The chessboard used in this program is a 7 * 10 OpenCV chessboard with the size of each squar 25 mm * 25 mm

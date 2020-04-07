@@ -1,0 +1,50 @@
+# V1.5
+1. Added icons and shortcuts for the menu items
+2. Suppressed images displaying during processing
+3. Added chessboard unit size adjustment in the setting
+4. Bug fix
+
+
+# V1.4
+1. Added a setting dialog and a setting file
+2. Modified manual drawing
+3. Added an interactive grab cut feature to manually select target area
+4. Modified contour detection under manual mode
+
+
+# V1.3
+1. After edge detection, create a balck mask to cover background and the chessboard, then start finding contour
+2. Select the longest contour as the target contour
+3. Provide an option for users whether to calibrate camera or not
+4. Created a new icon
+5. Bug fix
+
+
+# V1.2
+1. After contour tracing, detect the straight lines in the contour, fit each of them with only 2 points
+2. After all the straight lines been detected, fit the rest of the contour with polynomial curves
+3. Remove working files upon exit
+
+
+# V1.1
+1. After Perspective transform, crop the image to remove excessive black border
+2. After contour tracing, allow the user to redraw the contour using mouse
+3. After redrawn the contour, trace the contour again and calculate the area based on the drawing ratio
+
+
+# V1.0
+This is the first version of the software.
+
+A GUI is developed which combines all the components of the program.
+
+Main functions included:
+1. Main user interface
+2. Camera Matrix and Photo import window
+3. Photo distortion removal, Perspective transform
+4. Edge and contour detection
+5. Contour tracing
+6. Area calculation
+
+Utility function included:
+Camera Matrix generation
+

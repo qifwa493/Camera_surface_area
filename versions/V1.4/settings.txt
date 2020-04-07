@@ -1,0 +1,5 @@
+{
+    "CurveFitting": false,
+    "SelectionMode": 2,
+    "MaxImageSize": 3000
+}

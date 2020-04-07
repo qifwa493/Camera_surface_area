@@ -1,0 +1,16 @@
+# V1.0
+This is the first version of the software.
+
+A GUI is developed which combines all the components of the program.
+
+Main functions included:
+1. Main user interface
+2. Camera Matrix and Photo import window
+3. Photo distortion removal, Perspective transform
+4. Edge and contour detection
+5. Contour tracing
+6. Area calculation
+
+Utility function included:
+Camera Matrix generation
+
