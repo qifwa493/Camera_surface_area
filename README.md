@@ -8,6 +8,8 @@ This program uses OpenCV to process images, the detection process can be done au
 
 The program is wrapped with a user interface developed using PyQt5.
 
+Place the reference object (a 7*10 OpenCV chessboard) on the surface that you want to measure, take a picture of the scene, import the picture to the program, then make the measurement.
+
 ## Packages
 
 **The program requires Python (3.7.4 or newer); OpenCV (4.1 or newer); Numpy (1.17 or newer); PyQt5 to run.**
@@ -45,7 +47,26 @@ py_cameraSurfaceAreaGUI.py
 
 **An utility function is provided in the program called _Create Camera Matrix_ for creating the camera matrix to calibrate your camera**
 
-Pictures in the folder _pics_ can be used to create a camera matrix, camera model: Nikon D300S with 24 mm f4 lens.
+_Note: Adjust "ChessBoardUnitSize" parameter in the Settings according to the actual printout_
+
+Pictures in the folder _pics/_ can be used to create a camera matrix, camera model: Nikon D300S with 24 mm f4 lens.
 
 Pictures in the folder _versions/V1.5/Test/D300S_24mm/_ are some sample picture for testing
 
+## Demo
+
+-	Auto-detection of the target area:
+
+https://youtu.be/9O0A501VXk4
+
+-	Manual-detection by using Grab Cut:
+
+https://youtu.be/hkaNAndmqEw
+
+-	Manual define by using Re-draw:
+
+https://youtu.be/5JNYB7r19UE
+
+-	Creation of Camera Matrix:
+
+https://youtu.be/Bt9RyqS8rFI
