@@ -4,15 +4,15 @@
 
 ## Intro
 
-This program uses OpenCV to process images, the detection process can be done automatically or manually.
+This program uses OpenCV to process images, the detection process can be done automatically or manually
 
-The program is wrapped with a user interface developed using PyQt5.
+The program is wrapped with a user interface developed using PyQt5
 
-Place the reference object (a 7*10 OpenCV chessboard) on the surface that you want to measure, take a picture of the scene, import the picture to the program, then make the measurement.
+Place the reference object (a 7*10 OpenCV chessboard) on the surface that you want to measure, take a picture of the scene, import the picture to the program, then make the measurement
 
 ## Packages
 
-**The program requires Python (3.7.4 or newer); OpenCV (4.1 or newer); Numpy (1.17 or newer); PyQt5 to run.**
+**The program requires Python (3.7.4 or newer); OpenCV (4.1 or newer); Numpy (1.17 or newer); PyQt5 to run**
 
 - To install OpenCV for Python:
 ```
@@ -49,7 +49,7 @@ py_cameraSurfaceAreaGUI.py
 
 _Note: adjust "ChessBoardUnitSize" parameter in the Settings according to the actual printout_
 
-Pictures in the folder _pics/_ can be used to create a camera matrix, camera model: Nikon D300S with 24 mm f4 lens.
+Pictures in the folder _pics/_ can be used to create a camera matrix, camera model: Nikon D300S with 24 mm f4 lens
 
 Pictures in the folder _versions/V1.5/Test/D300S_24mm/_ are some sample picture for testing
 
