@@ -47,7 +47,7 @@ py_cameraSurfaceAreaGUI.py
 
 **An utility function is provided in the program called _Create Camera Matrix_ for creating the camera matrix to calibrate your camera**
 
-_Note: Adjust "ChessBoardUnitSize" parameter in the Settings according to the actual printout_
+_Note: adjust "ChessBoardUnitSize" parameter in the Settings according to the actual printout_
 
 Pictures in the folder _pics/_ can be used to create a camera matrix, camera model: Nikon D300S with 24 mm f4 lens.
 
