@@ -42,3 +42,10 @@ py_cameraSurfaceAreaGUI.py
 3. Detect the object to measure automatically or manually (change in the settings)
 4. Re-draw the contour if needed
 5. calculate the area
+
+**An utility function is provided in the program called _Create Camera Matrix_ for creating the camera matrix to calibrate your camera**
+
+Pictures in the folder _pics_ can be used to create a camera matrix, camera model: Nikon D300S with 24 mm f4 lens.
+
+Pictures in the folder _versions/V1.5/Test/D300S_24mm/_ are some sample picture for testing
+
